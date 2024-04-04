@@ -44,7 +44,7 @@ The package identifier must be usable by the package manager to install the pack
 A comment is any line that starts with the `#` character.
 
 Comments are whole lines.
-A comment cannot be added to the end of a 
+A comment cannot be added to the end of a line containing a package entry.
 
 ## File Extension
 
