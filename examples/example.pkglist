@@ -1,0 +1,43 @@
+# required for sys setup
+apt stow
+
+# modern shell utils
+apt bat
+apt fd-find
+apt fzf
+apt jq
+apt pick
+apt ripgrep
+apt thefuck
+apt ugrep
+snap yq
+
+# shells
+apt zsh
+apt zsh-antigen
+apt bash
+apt fish
+
+# git
+apt git
+apt gh
+apt git-extras
+apt git-lfs
+apt hub
+
+# IDEs
+snap-classic code
+apt neovim
+snap insomnia
+
+# other common apps
+snap discord
+apt firefox
+# n.b. firefox may be better from flatpak or snap
+flatpak fi.skyjake.Lagrange.flatpakref
+flatpak tv.plex.PlexDesktop.flatpakref
+flatpak io.github.janbar.noson.flatpakref
+snap spotify
+flatpak fr.handbrake.ghb.flatpakref
+apt vlc
+
