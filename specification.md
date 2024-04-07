@@ -21,14 +21,13 @@ prefix package-identifier
 
 Prefixes identify the package manager that should be used to install the package. In some cases, they also identify additional options that should be used when installing the package.
 
-Currently supported prefixes are limited to:
-
-- `apt` for packages installable by [APT](https://en.wikipedia.org/wiki/APT_(software)).
-- `flatpak` for packages installable by [Flatpak](https://flatpak.org/).
-- `snap` for packages installable by [Snap](https://snapcraft.io/about), using the default install mode.
-- `snap-classic` for packages installable by Snap, using the [classic](https://snapcraft.io/docs/install-modes#heading--classic) install mode.
-
 Prefixes should be followed by a whitespace character to seperate them from the package identifier.
+
+Supported prefixes are defined in the prefix-specific files:
+
+- [installing-from-apt.md](./pages/installing-from-apt.md)
+- [installing-from-flatpak.md](./pages/installing-from-flatpak.md)
+- [installing-from-snap.md](./pages/installing-from-snap.md)
 
 ### Package Identifiers
 
@@ -38,6 +37,8 @@ The exact format of a package identifier is out-of-scope of pkglist.
 Instead, the identifier format is dictated by the package manager that should be used to install the package.
 
 The package identifier must be usable by the package manager to install the package, without further information needing to be specified.
+
+For the specific format used by each package manager, refer to the `installing-from-` files listed above.
 
 ## Comments
 
